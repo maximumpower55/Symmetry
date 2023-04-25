@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.maximumpower55.symmetry.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "me.maximumpower55.symmetry.TransformMixinPlugin",
+  "mixins":[
+    "CropBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
